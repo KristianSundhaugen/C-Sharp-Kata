@@ -23,22 +23,22 @@ public class Kata
     {
         //Can be solved with using C#'s return str.EndsWith(ending);, but that is no fun :) 
         
-        if(str == null || ending == null || str.Length < ending.Length){
+        if(string.IsNullOrEmpty(str) || string.IsNullOrEmpty(ending) || str.Length < ending.Length){
             return false;
         }
 
-        var pointerA = str.Length-1;
-        var pointerB = ending.Length-1;
+        int strPointer = str.Length-1;
+        int endingPointer = ending.Length-1;
 
         for (int i = 0; i < ending.Length; i++)
         {
-            if(pointerA < 0 || pointerB <0){
+            if(strPointer < 0 || endingPointer <0){
                 return false;
             }
 
-            if(str[pointerA] == ending[pointerB]){
-                pointerA--;
-                pointerB--;
+            if(str[strPointer] == ending[endingPointer]){
+                strPointer--;
+                endingPointer--;
                 continue;
             } else {
                 return false;

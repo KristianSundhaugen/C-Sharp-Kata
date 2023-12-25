@@ -5,15 +5,6 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-    <LangVersion>latest</LangVersion>
-    <UseWPF>false</UseWPF>
-    <UseWindowsForms>false</UseWindowsForms>
-    <OutputPath>bin\Debug\net7.0\</OutputPath>
-    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-    <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-    <AppendRuntimeIdentifierToAssemblyName>false</AppendRuntimeIdentifierToAssemblyName>
-    <DebugType>portable</DebugType>
-    <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
 
 </Project>

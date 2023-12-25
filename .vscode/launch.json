@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "ReverseANumber",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/CodeWars/CSharp/Kata/SevenKyu/ReverseANumber/bin/Debug/netcoreapp3.1/ReverseANumber.dll"
+      // ... (other configuration properties)
+    },
+    {
+      "name": "StringEndsWithQuestionmark",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/CodeWars/CSharp/Kata/SevenKyu/StringEndsWithQuestionmark/bin/Debug/netcoreapp3.1/StringEndsWithQuestionmark.dll"
+      // ... (other configuration properties)
+    },
+    {
+      "name": "DigitalRoot",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build",
+      "program": "${workspaceFolder}/CodeWars/CSharp/Kata/SixKyu/DigitalRoot/DigitalRoot.csproj"
+      // ... (other configuration properties)
+    }
+    // Add configurations for other projects
+  ]
+}

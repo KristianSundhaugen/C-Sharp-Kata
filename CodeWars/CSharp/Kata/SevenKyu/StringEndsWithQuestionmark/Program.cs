@@ -23,6 +23,10 @@ public class Kata
     {
         //Can be solved with using C#'s return str.EndsWith(ending);, but that is no fun :) 
         
+        if(str == null || ending == null || str.Length < ending.Length){
+            return false;
+        }
+
         var pointerA = str.Length-1;
         var pointerB = ending.Length-1;
 

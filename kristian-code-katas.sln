@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SixKyu", "SixKyu", "{491D5E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DigitalRoot", "CodeWars\CSharp\Kata\SixKyu\DigitalRoot\DigitalRoot.csproj", "{8F537C23-74C4-491C-9482-29A513AB9F60}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DescendingOrder", "CodeWars\CSharp\Kata\SevenKyu\DescendingOrder\DescendingOrder.csproj", "{9E37D28F-B32B-4580-8605-07C37DF61330}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{8F537C23-74C4-491C-9482-29A513AB9F60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8F537C23-74C4-491C-9482-29A513AB9F60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F537C23-74C4-491C-9482-29A513AB9F60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E37D28F-B32B-4580-8605-07C37DF61330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E37D28F-B32B-4580-8605-07C37DF61330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E37D28F-B32B-4580-8605-07C37DF61330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E37D28F-B32B-4580-8605-07C37DF61330}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -49,6 +55,7 @@ Global
 		{151056CB-0995-498D-BC4D-57E141DA6A3F} = {F4DC7343-EDD6-436D-8F38-EB69F1F6AB50}
 		{491D5E10-16F0-4E55-AE77-79481523E821} = {2173341E-33B6-4B14-AFA6-9E32EC1E4328}
 		{8F537C23-74C4-491C-9482-29A513AB9F60} = {491D5E10-16F0-4E55-AE77-79481523E821}
+		{9E37D28F-B32B-4580-8605-07C37DF61330} = {F4DC7343-EDD6-436D-8F38-EB69F1F6AB50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E83CE09A-BE87-4B73-B0BF-B30EF865F909}

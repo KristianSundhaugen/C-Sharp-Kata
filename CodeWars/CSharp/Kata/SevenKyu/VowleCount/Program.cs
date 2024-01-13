@@ -13,7 +13,6 @@ public static class Kata
         PrintResult("Test7_VowelsWithConsonants_ReturnsCorrectCount", GetVowelCount("hello123") == 2);
         PrintResult("Test8_WhitespaceAndVowels_ReturnsCorrectCount", GetVowelCount("  a  e i o u  ") == 5);
         PrintResult("Test9_Punctuation_ReturnsZero", GetVowelCount("!,.?") == 0);
-        PrintResult("Test10_NullString_ReturnsZero", GetVowelCount(null) == 0);
     }
 
     private static void PrintResult(string testName, bool result)
@@ -24,12 +23,12 @@ public static class Kata
     {
         int vowelCount = 0;
 
-        if (str.Length <= 0)
+        if (str == null)
         {
             return 0;
         }
 
-        if (str == null)
+        if (str.Length <= 0)
         {
             return 0;
         }

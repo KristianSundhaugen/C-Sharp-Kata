@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BitCounting", "CodeWars\CSh
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IsNumberAPrime", "CodeWars\CSharp\Kata\SixKyu\IsNumberAPrime\IsNumberAPrime.csproj", "{2EB207EE-D5F5-40B0-853B-DCD0D5A0299C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VowleCount", "CodeWars\CSharp\Kata\SevenKyu\VowleCount\VowleCount.csproj", "{5F7189FE-D08D-453C-A2B3-BB1141F96170}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,10 @@ Global
 		{2EB207EE-D5F5-40B0-853B-DCD0D5A0299C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2EB207EE-D5F5-40B0-853B-DCD0D5A0299C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2EB207EE-D5F5-40B0-853B-DCD0D5A0299C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F7189FE-D08D-453C-A2B3-BB1141F96170}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7189FE-D08D-453C-A2B3-BB1141F96170}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7189FE-D08D-453C-A2B3-BB1141F96170}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7189FE-D08D-453C-A2B3-BB1141F96170}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -84,6 +90,7 @@ Global
 		{85F4EE67-2742-41E3-9B79-F49919F83D09} = {491D5E10-16F0-4E55-AE77-79481523E821}
 		{DCE2A0E2-8AD4-40FD-9EC9-FFDF56A5448E} = {491D5E10-16F0-4E55-AE77-79481523E821}
 		{2EB207EE-D5F5-40B0-853B-DCD0D5A0299C} = {491D5E10-16F0-4E55-AE77-79481523E821}
+		{5F7189FE-D08D-453C-A2B3-BB1141F96170} = {F4DC7343-EDD6-436D-8F38-EB69F1F6AB50}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E83CE09A-BE87-4B73-B0BF-B30EF865F909}
